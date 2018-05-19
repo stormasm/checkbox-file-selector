@@ -1,4 +1,7 @@
 
+This reads a complete list of files from any github directory
+within a github repository.
+
 * pull data from github and populate the selection list
 
 * checkboxes will drive redux cart, uncheck will remove from the cart
