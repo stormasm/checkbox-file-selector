@@ -11,5 +11,5 @@
 
 ##### Reset Button
 
-will clear out long term storage and take back to initial state
+* will clear out long term storage and take back to initial state
 reading data from github
