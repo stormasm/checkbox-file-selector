@@ -1,4 +1,5 @@
 import fetch from "node-fetch";
+import { writeJsonDataToFilename } from "../util/file-util";
 
 const template =
   "https://api.github.com/repos/stormasm/mui-card-file/contents/src/data/repos";
@@ -15,11 +16,12 @@ export async function getFileData(url) {
   });
 }
 
-/* For testing only
+/* For testing only */
 async function go() {
-  let json = await getFileData(template);
-  console.log(json);
+  let data = await getFileData(template);
+  let json = JSON.stringify(data);
+  let filename = "./data/out/json1.js";
+  await writeJsonDataToFilename(filename, json);
 }
 
 go();
-*/
