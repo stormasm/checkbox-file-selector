@@ -1,14 +1,12 @@
 import React from 'react'
-import ProductsContainer from './ProductsContainer'
-import CartContainer from './CartContainer'
+import FileContainer from './FileContainer'
 
 const App = () => (
   <div>
     <h2>Shopping Cart Example</h2>
     <hr/>
-    <ProductsContainer />
+    <FileContainer />
     <hr/>
-    <CartContainer />
   </div>
 )
 
