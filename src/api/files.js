@@ -16,7 +16,7 @@ export async function getFileData(url) {
   });
 }
 
-/* For testing only */
+/* For testing only
 async function go() {
   let data = await getFileData(template);
   let json = JSON.stringify(data);
@@ -25,3 +25,4 @@ async function go() {
 }
 
 go();
+*/
