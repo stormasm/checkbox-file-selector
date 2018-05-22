@@ -22,6 +22,7 @@
     "eject": "react-scripts eject",
     "test": "react-scripts test",
     "build": "babel src -d lib",
+    "s0": "npm run build && node lib/api/files.js",
     "s1": "babel ./src/api/filesa.js -o ./data/out/run.js && node ./data/out/run.js"
   }
 }
