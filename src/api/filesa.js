@@ -3,7 +3,7 @@
 import fetch from "cross-fetch";
 
 const template =
-  "https://api.github.com/repos/stormasm/mui-card-file/contents/src/data/repos";
+  "https://api.github.com/repos/stormasm/checkbox-file-selector/contents/src/data/repos";
 
 export async function getFileData(url) {
   return new Promise((resolve, reject) => {
