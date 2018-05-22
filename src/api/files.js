@@ -1,4 +1,4 @@
-import fetch from "node-fetch";
+import fetch from "cross-fetch";
 import { writeJsonDataToFilename } from "../util/file-util";
 
 const template =
