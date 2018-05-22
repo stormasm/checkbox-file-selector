@@ -1,2 +1,3 @@
 export const ADD_TO_CART = 'ADD_TO_CART'
+export const REQUEST_FILES = 'REQUEST_FILES'
 export const RECEIVE_FILES = 'RECEIVE_FILES'
