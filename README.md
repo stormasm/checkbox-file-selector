@@ -1,4 +1,6 @@
 
+##### [for more info...](https://github.com/stormasm/keybox/blob/master/README.md)
+
 This reads a complete list of files from any github directory
 within a github repository.
 
